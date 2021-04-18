@@ -1,0 +1,7 @@
+# Local Netlify folder
+.netlify
+build/
+functions/
+node_modules/
+
+.svelte/
