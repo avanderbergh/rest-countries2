@@ -3,7 +3,9 @@
 </script>
 
 <header>
-	<h1>Where in the world?</h1>
+	<a href="/">
+		<h1>Where in the world?</h1>
+	</a>
 	<ThemeSwitcher />
 </header>
 
@@ -20,6 +22,11 @@
 
 		h1 {
 			font-size: 1rem;
+		}
+
+		a {
+			color: var(--text);
+			text-decoration: none;
 		}
 	}
 </style>
