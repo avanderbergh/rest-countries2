@@ -2,15 +2,17 @@
 	export let country: any;
 </script>
 
-<article>
-	<img src={country.flag} alt="{country.name} flag" />
-	<section>
-		<h1>{country.name}</h1>
-		<p><strong>Population:</strong> {country.population}</p>
-		<p><strong>Region:</strong> {country.region}</p>
-		<p><strong>Capital:</strong> {country.capital}</p>
-	</section>
-</article>
+<a href={`/${country.name}`}>
+	<article>
+		<img src={country.flag} alt="{country.name} flag" />
+		<section>
+			<h1>{country.name}</h1>
+			<p><strong>Population:</strong> {country.population}</p>
+			<p><strong>Region:</strong> {country.region}</p>
+			<p><strong>Capital:</strong> {country.capital}</p>
+		</section>
+	</article>
+</a>
 
 <style lang="scss">
 	article {

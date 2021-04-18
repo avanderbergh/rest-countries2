@@ -1,5 +1,5 @@
 {
-	"name": "~TODO~",
+	"name": "rest-countries2",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
